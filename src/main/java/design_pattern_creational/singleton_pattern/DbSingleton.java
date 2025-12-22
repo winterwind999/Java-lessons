@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DbSingleton {
-    private String url = "jdbc:mysql://localhost:3306/java_design_pattern_creational";
+    private String url = "jdbc:mysql://localhost:3306/java_design_pattern";
     private String user = "root";
     private String password = "1523";
     private Connection conn = null;

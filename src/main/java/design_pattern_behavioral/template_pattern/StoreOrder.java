@@ -1,0 +1,23 @@
+package design_pattern_behavioral.template_pattern;
+
+public class StoreOrder extends OrderTemplate {
+    @Override
+    public void doCheckout() {
+        System.out.println("Store Checkout");
+    }
+
+    @Override
+    public void doPayment() {
+        System.out.println("Process payment with Card present");
+    }
+
+    @Override
+    public void doReceipt() {
+        System.out.println("Print receipt");
+    }
+
+    @Override
+    public void doDelivery() {
+        System.out.println("Bag items at counter");
+    }
+}
