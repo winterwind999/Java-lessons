@@ -1,6 +1,4 @@
-## Navigate to src/main/java to see the source codes
-
-# Java lessons I've learned:
+Java lessons:
 - ✅ Setting up Java Development Environment
 - ✅ Getting Started with Programming Java
 - ✅ Fundamentals of Object-Oriented Programming in Java
