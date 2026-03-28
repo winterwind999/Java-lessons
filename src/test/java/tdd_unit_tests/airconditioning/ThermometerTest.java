@@ -13,6 +13,7 @@ import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 public class ThermometerTest {
+
     @InjectMocks
     Thermometer thermometer;
 

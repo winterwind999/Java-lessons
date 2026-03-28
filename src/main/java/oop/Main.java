@@ -23,14 +23,14 @@ public class Main {
 
         // Polymorphism
         // The same Vehicle reference calls go(), but the Car implementation is executed at runtime.
-        Vehicle car3 = new Car();
+        VehicleAbstract car3 = new Car();
         car3.go();
         car3.go();
 
         System.out.println();
 
         Propeller propeller = new Propeller();
-        Vehicle boat = new Boat(propeller);
+        VehicleAbstract boat = new Boat(propeller);
         boat.go();
         boat.stop();
     }

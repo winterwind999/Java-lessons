@@ -6,6 +6,7 @@ import org.junit.jupiter.params.converter.SimpleArgumentConverter;
 import tdd.airport.*;
 
 public class FlightArgumentConverter extends SimpleArgumentConverter {
+
     @Override
     protected Object convert(Object source, Class<?> targetType) {
         Assertions.assertEquals(String.class, source.getClass(), "Can only convert from String");

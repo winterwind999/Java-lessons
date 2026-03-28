@@ -14,6 +14,7 @@ import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 public class DatabaseAccessTest {
+
     @Mock
     private Database database;
 

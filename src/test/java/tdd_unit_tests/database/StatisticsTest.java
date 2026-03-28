@@ -18,6 +18,7 @@ import static tdd.database.DatabaseUtil.buildFlightsList;
 
 @ExtendWith(MockitoExtension.class)
 public class StatisticsTest {
+
     @Spy
     private Database database;
 

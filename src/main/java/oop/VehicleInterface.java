@@ -1,6 +1,6 @@
 package oop;
 
-public interface Vehicle {
+public interface VehicleInterface {
     // Abstraction
     // Vehicle defines what actions are available, not how they are implemented
     void go();

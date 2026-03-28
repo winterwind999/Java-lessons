@@ -3,15 +3,6 @@ package codility.problem_4;
 import java.util.HashSet;
 import java.util.Set;
 
-//PROBLEM - rotate_and_count_palindromes:
-//
-//Given a string S, generate all unique rotations of the string and count how many are palindromes.
-//
-//A rotation is created by moving characters from the start to the end.
-//
-//Example:
-//“aab” → “aab”, “aba”, “baa”
-
 public class Solution {
     public int solution(String S) {
         int count = 0;

@@ -1,6 +1,6 @@
 package oop;
 
-public class Boat implements Vehicle {
+public class Boat extends VehicleAbstract {
     // Composition
     // Boat HAS-A Propeller and achieves behavior by delegating work instead of inheriting it
     private final Propeller propeller;

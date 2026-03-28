@@ -11,6 +11,7 @@ import tdd.airport.Passenger;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class MilageTest {
+
     private Milage milage;
 
     @BeforeAll

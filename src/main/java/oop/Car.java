@@ -2,7 +2,7 @@ package oop;
 
 // Inheritance
 // Car inherits the contract defined by Vehicle
-public class Car implements Vehicle{
+public class Car extends VehicleAbstract {
     // Encapsulation
     // Internal state is private, hidden, and controlled through methods
     private boolean isDriving;

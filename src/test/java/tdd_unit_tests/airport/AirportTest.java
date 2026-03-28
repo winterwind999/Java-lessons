@@ -4,6 +4,7 @@ import org.junit.jupiter.api.*;
 import tdd.airport.*;
 
 public class AirportTest {
+
     @Nested
     @DisplayName("Given there is an economy flight")
     class EconomyFlightTest {
